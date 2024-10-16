@@ -1,0 +1,120 @@
+/* *{
+    box-sizing: border-box;
+} */
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  background-color: rgb(160, 219, 233);
+}
+.container {
+  /* position: relative; */
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  /* border: 1px solid rgb(208, 226, 241); */
+  border: none;
+  border-radius: 13px;
+}
+.header {
+  background-color: rgb(111, 142, 228);
+  height: 60px;
+  margin-top: -2px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+#img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px;
+  border-radius: 50px;
+}
+.heading {
+  /* background-color:blacks; */
+  display: flex;
+  justify-content: center;
+  padding: 10px 4px 50px -50px;
+  margin-top: 6px;
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+  /* padding: 10px 4px 50px; */
+}
+#para1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#para2 {
+  margin-left: 85px;
+  border: none;
+  width: 240px;
+  border-radius: 10px 10px 10px 0px;
+  background-color: rgb(242, 242, 243);
+}
+#p {
+  padding: 20px 20px 20px 15px;
+  color: rgb(117, 104, 104);
+  font-size: 19px;
+}
+#positions {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+#para3 {
+  margin-left: 85px;
+  margin-top: -16px;
+  color: rgb(170, 158, 158);
+}
+.container2 {
+  height: 200px;
+  width: 240px;
+  border: 1px solid black;
+  margin-left: 85px;
+  margin-top: -10px;
+  border-radius: 13px;
+  padding: 5px 2px;
+}
+.pp1 {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 2px 2px 16px 10px;
+  color: rgb(117, 104, 104);
+  font-size: 18px;
+}
+.pp2 {
+  display: flex;
+  justify-content: center;
+  padding: 3px 2px;
+  color: rgb(117, 104, 104);
+  font-size: 18px;
+}
+
+input {
+  padding: 25px 30px;
+  width: 90%;
+  margin-left: -65px;
+  border-radius: 9px;
+
+}
+button {
+  position: absolute;
+  margin-left: 8px;
+  margin-bottom: -60px;
+  padding: 20px 19px;
+  background-color:rgb(111, 142, 228);
+  height: 65px;
+  border-radius: 9px;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
